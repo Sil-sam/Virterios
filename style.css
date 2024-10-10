@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    width: 100vw;
 }
 
 .header {
@@ -22,7 +21,7 @@
 .header>nav {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: 100vw;
     align-items: center;
 }
 
@@ -211,7 +210,6 @@
     align-items: center;
     justify-content: space-around;
     height: 100vh;
-    /* font-family: 'Oswald', sans-serif; */
 }
 
 .problems>figure {
@@ -263,8 +261,7 @@
     font-size: 1.7rem;
     font-weight: 300;
     margin-left: 15px;
-    width: 50%;
-    border: #FFFFFF 2px solid;
+    width: 70%;
 }
 
 #contact-problem {
@@ -441,17 +438,17 @@ footer {
 
     .box-texts>h2 {
         font-size: 2em;
-        width: 45%;
-        height: 50%;
+        width: 80%;
+        height: 40%;
+        align-self: center;
         align-content: center;
-
+        text-align: center;
     }
 
     .box-texts>button {
         width: 120px;
         height: 50px;
         font-size: 15px;
-        margin-left: 50px;
     }
 
     .services {
@@ -486,6 +483,7 @@ footer {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        height: 150vh;
     }
 
     .problems>figure {
@@ -500,14 +498,27 @@ footer {
         height: 100%;
     }
 
+    .problems-example {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
     .problems-example>div {
-        width: 80vw;
-        height: 50vh;
+        width: 90%;
+        height: 60%;
         border-left: 5px solid white;
     }
 
+    .problems-example>div>ul{
+        height: 80%;
+    }
+    .problems-example>div>ul>li{
+        font-size: 1.3em;
+    }
+
     .problems-example>button {
-        width: 70vw;
+        width: 70%;
     }
 
     .about-us {
