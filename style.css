@@ -88,6 +88,7 @@
     font-family: 'Libre baskervile', serif;
     color: #0E464E;
     font-weight: bolder;
+    font-size: 3em;
 }
 
 .box-texts {
@@ -129,7 +130,7 @@
 
 .presentation>figure {
     width: 30%;
-    height: 90%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -433,6 +434,9 @@ footer {
         height: 330px;
         display: flex;
 
+    }
+    .presentation figure h2 {
+        border-bottom: #0E464E 3px solid;
     }
 
     .box-texts {
