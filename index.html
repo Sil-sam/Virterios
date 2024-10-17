@@ -20,7 +20,8 @@
     <meta name="description"
         content="Prestamos serviços de construção de sites como landing page, e-commerce, site institucional, sites para porfólios e blogs ">
     <script src="https://unpkg.com/scrollreveal"></script>
-    <meta name="keywords" content="sites, web, desenvolvimento, landing page, ecommerce, site institucional, portfólio, criação de sites, desenvolvimento de sites, SEO">
+    <meta name="keywords"
+        content="sites, web, desenvolvimento, landing page, ecommerce, site institucional, portfólio, criação de sites, desenvolvimento de sites, SEO">
     <meta name="author" content="Samuel Silverio | Virterios">
 
     <title>Virterios | Soluções tecnologicas</title>
@@ -34,7 +35,8 @@
                 <li class="list-header" id="toAbout"><a href="">Sobre nós</a></li>
                 <li class="list-header" id="toService"><a href="#services">Serviços</a></li>
             </ul>
-            <button id="contact"><a href=""> Contato</a></button>
+            <button id="contact" onclick="window.location.href='https://api.whatsapp.com/send?phone=5512981319375'">
+                Contato</button>
         </nav>
 
 
@@ -43,59 +45,116 @@
         <section class="presentation">
             <section class="box-texts">
                 <h2>Criamos sua <span>identidade visual</span> na internet</h2>
-                <button onclick="mailto">Entre em contato</button>
+                <button onclick="window.location.href='https://api.whatsapp.com/send?phone=5512981319375'">Entre em
+                    contato</button>
             </section>
             <figure>
                 <img src="./images/logoWhite.png" alt="">
-                <h2>Virterios</h2>
+                <h1>Virterios</h1>
             </figure>
         </section>
     </main>
     <section class="services" id="services">
-        <h1>Nossos melhores serviços</h1>
+        <h2>Nossos melhores serviços</h2>
 
         <section class="card-sections">
             <article>
                 <div class="card-header">
-                    <img src="./images/web.png" alt="">
-                    <h3>Sites</h3>
+                    <h3>Site institucional</h3>
                 </div>
-                <p>Desenvolvimento de sites responsivos que se adequam a tamnhos de computadores e dispositivos móveis
+                <p>Aumente a presença da sua empresa, mostre para a web a sua missão, visão e valores
                 </p>
+                <button class="button-budget"
+                    onclick="window.location.href='https://api.whatsapp.com/send?phone=5512981319375'">Quero saber
+                    mais</button>
             </article>
             <article>
                 <div class="card-header">
-                    <img src="./images/design.png" alt="">
-                    <h3>Design</h3>
+                    <h3>Landing page</h3>
                 </div>
-                <p>Design do seu serviço web com manutenções mensais</p>
+                <p>Precisa realizar mais vendas ?
+                    Venha construir uma página focada na captura de leads </p>
+                <button class="button-budget"
+                    onclick="window.location.href='https://api.whatsapp.com/send?phone=5512981319375'">Quero saber
+                    mais</button>
             </article>
             <article>
                 <div class="card-header">
-                    <img src="./images/search.png" alt="">
+                    <h3>E-commerce</h3>
+                </div>
+                <p>Precisa de uma plataforma para vender seus produtos online ? Trazemos as opções mais seguras para as
+                    transações</p>
+                <button class="button-budget"
+                    onclick="window.location.href='https://api.whatsapp.com/send?phone=5512981319375'">Quero saber
+                    mais</button>
+            </article>
+            <article>
+                <div class="card-header">
+                    <h3>Portfólio</h3>
+                </div>
+                <p>Mostre a qualidade dos seus serviços através de um portfólio com todos os projetos mais relevantes
+                </p>
+                <button class="button-budget"
+                    onclick="window.location.href='https://api.whatsapp.com/send?phone=5512981319375'">Quero saber
+                    mais</button>
+            </article>
+            <article>
+                <div class="card-header">
+                    <h3>Manutenção</h3>
+                </div>
+                <p>Já possui um site mas necessita de atualizações ?
+                    Nós te ajudamos com isso</p>
+                <button class="button-budget"
+                    onclick="window.location.href='https://api.whatsapp.com/send?phone=5512981319375'">Quero saber
+                    mais</button>
+            </article>
+            <article>
+                <div class="card-header">
                     <h3>SEO</h3>
                 </div>
-                <p>Soluções para melhoria nos buscadores do Google, permitindo que seu site aparece nos tops de
-                    pesquisas</p>
+                <p>Apareça nas principais páginas de pesquisas</p>
+                <button class="button-budget"
+                    onclick="window.location.href='https://api.whatsapp.com/send?phone=5512981319375'">Quero saber
+                    mais</button>
             </article>
         </section>
-        <div class=""></div>
     </section>
 
     <section class="problems" id="problems">
-        <figure>
-            <img src="./images/screen.png" alt="">
-        </figure>
         <section class="problems-example">
-            <div>
-                <h2>Problemas</h2>
-                <ul>
-                    <li>Precisa de um site para você ou para seu negócio ?</li>
-                    <li>Tem um design em mente mas não sabe por onde começar ? </li>
-                    <li>Quer aparecer nas pesquisa do google e fazer as pessoas entrarem em contato com você ? </li>
-                </ul>
-            </div>
-            <button id="contact-problem">Entre em contato com a gente</button>
+            <div class="faq-header">Perguntas frequentes</div>
+
+            <section class="faq-content">
+                <article class="faq-question">
+                    <input id="q1" type="checkbox" class="panel">
+                    <figure class="plus">+</figure>
+                    <label for="q1" class="panel-title">Como é o processo de desenvolvimento ?</label>
+                    <div class="panel-content">Estaremos organizando a quantidade de reuniões necessárias para que todas
+                        suas necessidades sejam supridas, assim que tudo estiver alinhado, o contrato é assinado e
+                        iniciamos o desenvolvimento até o prazo estipulado</div>
+                </article>
+
+                <article class="faq-question">
+                    <input id="q2" type="checkbox" class="panel">
+                    <div class="plus">+</div>
+                    <label for="q2" class="panel-title">Em quanto tempo recebo o serviço ?</label>
+                    <div class="panel-content">A depender do projeto solicitado, o prazo de entrega será acordado nas
+                        reuniões de negociação</div>
+                </article>
+
+                <article class="faq-question">
+                    <input id="q3" type="checkbox" class="panel">
+                    <div class="plus">+</div>
+                    <label for="q3" class="panel-title">Quanto irei investir ?</label>
+                    <div class="panel-content">Enviaremos um documento com valores iniciais dos projetos, a partir dele,
+                        adicionaremos valores com a demanda do serviço</div>
+                </article>
+            </section>
+
+
+            <button id="contact-problem"
+                onclick="window.location.href='https://api.whatsapp.com/send?phone=5512981319375'">Faça um
+                orçamento</button>
         </section>
     </section>
     <section class="about-us" id="about-us">
@@ -107,16 +166,9 @@
                 compartilhar noticias com amigos.</p>
             <p id="come">Venha com a Virterios</p>
         </div>
-        <figure>
-            <img src="./images/computer.png" alt="">
-        </figure>
     </section>
     <footer>
-        <section class="block">
-            <div>
-                <p>Surgiu interesse ? Entre em contato já</p>
-            </div>
-        </section>
+        
         <section class="links">
             <p>Email: contato.samuelsilverio@gmail.com</p>
             <nav>

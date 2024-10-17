@@ -22,25 +22,22 @@ toAbout.addEventListener('click', (e) => {
 })
 
 ScrollReveal().reveal('#services', {
-    distance: '50px',
-    easing: 'ease',
-    opacity: 0,
-    interval: 200,
-    duration: 800
+    easing: 'ease-in-out',
+    opacity: 0.2,
+    interval: 100,
+    duration: 300
 })
 
 ScrollReveal().reveal('.problems', {
-    distance: '50px',
-    easing: 'ease',
+    easing: 'ease-in-out',
     opacity: 0,
     interval: 200,
-    duration: 800
+    duration: 300
 })
 
 ScrollReveal().reveal('.about-us', {
-    distance: '50px',
-    easing: 'ease',
+    easing: 'ease-in-out',
     opacity: 0,
     interval: 200,
-    duration: 800
+    duration: 300
 })
